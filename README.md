@@ -1,5 +1,5 @@
-#FlaskCMSDDesign.
-
+FlaskCMSDDesign
+===
 `python -v 3.7.x`, `flask -v 1.0.2`, `SQLAlchemy -v 1.2.18`
 
 `CMSD Design`은 Controller, Model, modelService, Database access의 약자이다.
@@ -130,8 +130,10 @@ flask를 활용하면서 DB접근시 어떻게 하면 효율적으로 할 수 �
                 self.query = self.query.filter(filt)
     ```
     
-##REFERENCE
+REFERENCE
+===
  `filter method` [Ruddra's Blog](https://ruddra.com/posts/dynamically-constructing-filters-based-on-string-input-using-sqlalchemy/)
 
-##LICENSED
+LICENSED
+===
 MIT
